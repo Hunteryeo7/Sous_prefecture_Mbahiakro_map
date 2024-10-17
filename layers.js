@@ -27,7 +27,7 @@ var lyr_SousPrfecture_1 = new ol.layer.Vector({
                 style: style_SousPrfecture_1,
                 popuplayertitle: "Sous-Préfecture",
                 interactive: true,
-                title: '<img src="styles/legend/SousPrfecture_1.png" /> Sous-Préfecture'
+                title: '<img src="SousPrfecture_1.png" /> Sous-Préfecture'
             });
 var format_ContourMBahiakro_2 = new ol.format.GeoJSON();
 var features_ContourMBahiakro_2 = format_ContourMBahiakro_2.readFeatures(json_ContourMBahiakro_2, 
@@ -42,7 +42,7 @@ var lyr_ContourMBahiakro_2 = new ol.layer.Vector({
                 style: style_ContourMBahiakro_2,
                 popuplayertitle: "Contour M'Bahiakro",
                 interactive: true,
-                title: '<img src="styles/legend/ContourMBahiakro_2.png" /> Contour M\'Bahiakro'
+                title: '<img src="ContourMBahiakro_2.png" /> Contour M\'Bahiakro'
             });
 var format_Coursdeau_3 = new ol.format.GeoJSON();
 var features_Coursdeau_3 = format_Coursdeau_3.readFeatures(json_Coursdeau_3, 
@@ -57,7 +57,7 @@ var lyr_Coursdeau_3 = new ol.layer.Vector({
                 style: style_Coursdeau_3,
                 popuplayertitle: "Cours d'eau",
                 interactive: true,
-                title: '<img src="styles/legend/Coursdeau_3.png" /> Cours d\'eau'
+                title: '<img src="Coursdeau_3.png" /> Cours d\'eau'
             });
 var format_RESEAUROUTIER_4 = new ol.format.GeoJSON();
 var features_RESEAUROUTIER_4 = format_RESEAUROUTIER_4.readFeatures(json_RESEAUROUTIER_4, 
@@ -73,9 +73,9 @@ var lyr_RESEAUROUTIER_4 = new ol.layer.Vector({
                 popuplayertitle: "RESEAU ROUTIER",
                 interactive: true,
     title: 'RESEAU ROUTIER<br />\
-    <img src="styles/legend/RESEAUROUTIER_4_0.png" /> voie Principale<br />\
-    <img src="styles/legend/RESEAUROUTIER_4_1.png" /> Piste<br />\
-    <img src="styles/legend/RESEAUROUTIER_4_2.png" /> 2<br />'
+    <img src="RESEAUROUTIER_4_0.png" /> voie Principale<br />\
+    <img src="RESEAUROUTIER_4_1.png" /> Piste<br />\
+    <img src="RESEAUROUTIER_4_2.png" /> 2<br />'
         });
 var format_LimiteSousPrfectureMBahiakro_5 = new ol.format.GeoJSON();
 var features_LimiteSousPrfectureMBahiakro_5 = format_LimiteSousPrfectureMBahiakro_5.readFeatures(json_LimiteSousPrfectureMBahiakro_5, 
@@ -90,7 +90,7 @@ var lyr_LimiteSousPrfectureMBahiakro_5 = new ol.layer.Vector({
                 style: style_LimiteSousPrfectureMBahiakro_5,
                 popuplayertitle: "Limite Sous-Préfecture M'Bahiakro",
                 interactive: true,
-                title: '<img src="styles/legend/LimiteSousPrfectureMBahiakro_5.png" /> Limite Sous-Préfecture M\'Bahiakro'
+                title: '<img src="LimiteSousPrfectureMBahiakro_5.png" /> Limite Sous-Préfecture M\'Bahiakro'
             });
 var format_VILLAGE_6 = new ol.format.GeoJSON();
 var features_VILLAGE_6 = format_VILLAGE_6.readFeatures(json_VILLAGE_6, 
@@ -105,7 +105,7 @@ var lyr_VILLAGE_6 = new ol.layer.Vector({
                 style: style_VILLAGE_6,
                 popuplayertitle: "VILLAGE",
                 interactive: true,
-                title: '<img src="styles/legend/VILLAGE_6.png" /> VILLAGE'
+                title: '<img src="VILLAGE_6.png" /> VILLAGE'
             });
 var format_Villagesconcerns_7 = new ol.format.GeoJSON();
 var features_Villagesconcerns_7 = format_Villagesconcerns_7.readFeatures(json_Villagesconcerns_7, 
@@ -120,7 +120,7 @@ var lyr_Villagesconcerns_7 = new ol.layer.Vector({
                 style: style_Villagesconcerns_7,
                 popuplayertitle: "Villages concernés",
                 interactive: true,
-                title: '<img src="styles/legend/Villagesconcerns_7.png" /> Villages concernés'
+                title: '<img src="Villagesconcerns_7.png" /> Villages concernés'
             });
 var group_group1 = new ol.layer.Group({
                                 layers: [],
